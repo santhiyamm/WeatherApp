@@ -1,0 +1,86 @@
+<html>
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+        <title> Weather </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     </head>
+
+     <body>
+        <h1>
+          <p>Today's Temperature at your place</p><div id="city"></div>
+        <div id="temp">&#176;</div><div id="minutely"></div></h1>
+        <h2><div id="location"></div></h2>
+<table style="align: center; border: 1px solid black;" cellspacing="15" >
+  <tr style="width:40px;">
+    <th>Date</th>
+    <th>Temp at 12:00 AM</th>
+    <th>Temp at 3:00 AM</th>
+    <th>Temp at 6:00 AM</th>
+    <th>Temp at 9:00 AM</th>
+    <th>Temp at 12:00 PM</th>
+    <th>Temp at 3:00 PM</th>
+    <th>Temp at 6:00 PM</th>
+    <th>Temp at 9:00 PM</th>
+  </tr>
+  <tr style="width:20px;">
+    <td><div id="Day1">Day1</div> </td>
+    <td><div id="Day1Temp1"></div> </td>
+    <td><div id="Day1Temp2"></div> </td>
+    <td><div id="Day1Temp3"></div> </td>
+    <td><div id="Day1Temp4"></div> </td>
+    <td><div id="Day1Temp5"></div> </td>
+    <td><div id="Day1Temp6"></div> </td>
+    <td><div id="Day1Temp7"></div> </td>
+    <td><div id="Day1Temp8"></div> </td>
+  </tr>
+  <tr>
+    <td><div id="Day2">Day2</div> </td>
+    <td><div id="Day2Temp1"></div> </td>
+    <td><div id="Day2Temp2"></div> </td>
+    <td><div id="Day2Temp3"></div> </td>
+    <td><div id="Day2Temp4"></div> </td>
+    <td><div id="Day2Temp5"></div> </td>
+    <td><div id="Day2Temp6"></div> </td>
+    <td><div id="Day2Temp7"></div> </td>
+    <td><div id="Day2Temp8"></div> </td>
+  </tr>
+  <tr>
+    <td><div id="Day3">Day3</div> </td>
+    <td><div id="Day3Temp1"></div> </td>
+    <td><div id="Day3Temp2"></div> </td>
+    <td><div id="Day3Temp3"></div> </td>
+    <td><div id="Day3Temp4"></div> </td>
+    <td><div id="Day3Temp5"></div> </td>
+    <td><div id="Day3Temp6"></div> </td>
+    <td><div id="Day3Temp7"></div> </td>
+    <td><div id="Day3Temp8"></div> </td>
+  </tr>
+  <tr>
+    <td><div id="Day4">Day4</div> </td>
+    <td><div id="Day4Temp1"></div> </td>
+    <td><div id="Day4Temp2"></div> </td>
+    <td><div id="Day4Temp3"></div> </td>
+    <td><div id="Day4Temp4"></div> </td>
+    <td><div id="Day4Temp5"></div> </td>
+    <td><div id="Day4Temp6"></div> </td>
+    <td><div id="Day4Temp7"></div> </td>
+    <td><div id="Day4Temp8"></div> </td>
+  </tr>
+  <tr>
+    <td><div id="Day5">Day5</div> </td>
+    <td><div id="Day5Temp1"></div> </td>
+    <td><div id="Day5Temp2"></div> </td>
+    <td><div id="Day5Temp3"></div> </td>
+    <td><div id="Day5Temp4"></div> </td>
+    <td><div id="Day5Temp5"></div> </td>
+    <td><div id="Day5Temp6"></div> </td>
+    <td><div id="Day5Temp7"></div> </td>
+    <td><div id="Day5Temp8"></div> </td>
+  </tr>
+</table>
+
+     </body>
+     <script src="app.js"></script>
+  </html>
